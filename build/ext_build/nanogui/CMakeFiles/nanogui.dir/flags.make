@@ -3,11 +3,11 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_FLAGS = -O3 -DNDEBUG -I/home/shinhra/cours/monde3d/monde3d/m3d_td1/ext/nanogui/ext/eigen -I/home/shinhra/cours/monde3d/monde3d/m3d_td1/ext/nanogui/ext/glfw/include -I/home/shinhra/cours/monde3d/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src -I/home/shinhra/cours/monde3d/monde3d/m3d_td1/ext/nanogui/include -I/home/shinhra/cours/monde3d/monde3d/build/ext_build/nanogui -I/home/shinhra/cours/monde3d/monde3d/m3d_td1/ext/nanogui/ext/coro   
+C_FLAGS = -O3 -DNDEBUG -I/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/ext/eigen -I/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/ext/glfw/include -I/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src -I/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/include -I/home/shinhra/cours/monde3d/build/ext_build/nanogui -I/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/ext/coro   
 
 C_DEFINES = -DCORO_SJLJ -DNANOGUI_BUILD
 
-CXX_FLAGS =  -std=c++14 -fvisibility=hidden -Wall -Wextra -std=c++14 -O3 -DNDEBUG -I/home/shinhra/cours/monde3d/monde3d/m3d_td1/ext/nanogui/ext/eigen -I/home/shinhra/cours/monde3d/monde3d/m3d_td1/ext/nanogui/ext/glfw/include -I/home/shinhra/cours/monde3d/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src -I/home/shinhra/cours/monde3d/monde3d/m3d_td1/ext/nanogui/include -I/home/shinhra/cours/monde3d/monde3d/build/ext_build/nanogui -I/home/shinhra/cours/monde3d/monde3d/m3d_td1/ext/nanogui/ext/coro   
+CXX_FLAGS =  -std=c++14 -fvisibility=hidden -Wall -Wextra -std=c++14 -O3 -DNDEBUG -I/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/ext/eigen -I/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/ext/glfw/include -I/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src -I/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/include -I/home/shinhra/cours/monde3d/build/ext_build/nanogui -I/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/ext/coro   
 
 CXX_DEFINES = -DCORO_SJLJ -DNANOGUI_BUILD
 

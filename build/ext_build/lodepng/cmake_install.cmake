@@ -1,4 +1,4 @@
-# Install script for directory: /home/shinhra/cours/monde3d/monde3d/m3d_td1/ext/lodepng
+# Install script for directory: /home/shinhra/cours/monde3d/m3d_td1/ext/lodepng
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

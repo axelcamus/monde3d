@@ -1,4 +1,4 @@
-# Install script for directory: /home/shinhra/cours/monde3d/monde3d/m3d_td1/ext/lib3ds
+# Install script for directory: /home/shinhra/cours/monde3d/m3d_td1/ext/lib3ds
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/shinhra/cours/monde3d/monde3d/build/ext_build/lib3ds/src/cmake_install.cmake")
+  include("/home/shinhra/cours/monde3d/build/ext_build/lib3ds/src/cmake_install.cmake")
 
 endif()
 

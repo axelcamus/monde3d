@@ -42,10 +42,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shinhra/cours/monde3d/monde3d/m3d_td1
+CMAKE_SOURCE_DIR = /home/shinhra/cours/monde3d/m3d_td1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shinhra/cours/monde3d/monde3d/build
+CMAKE_BINARY_DIR = /home/shinhra/cours/monde3d/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,9 +113,9 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shinhra/cours/monde3d/build/CMakeFiles /home/shinhra/cours/monde3d/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shinhra/cours/monde3d/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

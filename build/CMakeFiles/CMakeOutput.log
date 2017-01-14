@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/3.2.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/shinhra/cours/monde3d/build/CMakeFiles/3.2.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,35 +23,35 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/3.2.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/shinhra/cours/monde3d/build/CMakeFiles/3.2.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp
+Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2761245200/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2761245200.dir/build.make CMakeFiles/cmTryCompileExec2761245200.dir/build
-make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2761245200.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2761245200.dir/testCCompiler.c.o   -c /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec2761245200
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2761245200.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec2761245200.dir/testCCompiler.c.o  -o cmTryCompileExec2761245200 -rdynamic 
-make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3907877413/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3907877413.dir/build.make CMakeFiles/cmTryCompileExec3907877413.dir/build
+make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3907877413.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3907877413.dir/testCCompiler.c.o   -c /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3907877413
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3907877413.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3907877413.dir/testCCompiler.c.o  -o cmTryCompileExec3907877413 -rdynamic 
+make[1]: Leaving directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp
+Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3940432685/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3940432685.dir/build.make CMakeFiles/cmTryCompileExec3940432685.dir/build
-make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3940432685.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3940432685.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec3940432685
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3940432685.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTryCompileExec3940432685.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3940432685 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1814732505/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1814732505.dir/build.make CMakeFiles/cmTryCompileExec1814732505.dir/build
+make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1814732505.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1814732505.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1814732505
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1814732505.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTryCompileExec1814732505.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1814732505 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 5.2.1 20151010 (Ubuntu 5.2.1-22ubuntu2) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3940432685' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbVez4r.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3940432685 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTryCompileExec3940432685.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1814732505' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpcRTVu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1814732505 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTryCompileExec1814732505.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec3940432685/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3940432685.dir/build.make CMakeFiles/cmTryCompileExec3940432685.dir/build]
-  ignore line: [make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec3940432685.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3940432685.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec3940432685]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3940432685.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTryCompileExec3940432685.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3940432685 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec1814732505/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1814732505.dir/build.make CMakeFiles/cmTryCompileExec1814732505.dir/build]
+  ignore line: [make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1814732505.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1814732505.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1814732505]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1814732505.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTryCompileExec1814732505.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1814732505 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -88,13 +88,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.2.1 20151010 (Ubuntu 5.2.1-22ubuntu2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3940432685' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbVez4r.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3940432685 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTryCompileExec3940432685.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1814732505' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpcRTVu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1814732505 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTryCompileExec1814732505.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccbVez4r.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccpcRTVu.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -112,7 +112,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec3940432685] ==> ignore
+    arg [cmTryCompileExec1814732505] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -124,7 +124,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTryCompileExec3940432685.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec1814732505.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -156,18 +156,18 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp
+Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec481911161/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec481911161.dir/build.make CMakeFiles/cmTryCompileExec481911161.dir/build
-make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec481911161.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec481911161.dir/feature_tests.c.o   -c /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec481911161
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec481911161.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec481911161.dir/feature_tests.c.o  -o cmTryCompileExec481911161 -rdynamic 
-make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3185324662/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3185324662.dir/build.make CMakeFiles/cmTryCompileExec3185324662.dir/build
+make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3185324662.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec3185324662.dir/feature_tests.c.o   -c /home/shinhra/cours/monde3d/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec3185324662
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3185324662.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3185324662.dir/feature_tests.c.o  -o cmTryCompileExec3185324662 -rdynamic 
+make[1]: Leaving directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -177,18 +177,18 @@ make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp
+Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2522118691/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2522118691.dir/build.make CMakeFiles/cmTryCompileExec2522118691.dir/build
-make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2522118691.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec2522118691.dir/feature_tests.c.o   -c /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec2522118691
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2522118691.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec2522118691.dir/feature_tests.c.o  -o cmTryCompileExec2522118691 -rdynamic 
-make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4166722223/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4166722223.dir/build.make CMakeFiles/cmTryCompileExec4166722223.dir/build
+make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4166722223.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec4166722223.dir/feature_tests.c.o   -c /home/shinhra/cours/monde3d/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec4166722223
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4166722223.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4166722223.dir/feature_tests.c.o  -o cmTryCompileExec4166722223 -rdynamic 
+make[1]: Leaving directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -198,18 +198,18 @@ make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp
+Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2700411540/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2700411540.dir/build.make CMakeFiles/cmTryCompileExec2700411540.dir/build
-make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2700411540.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec2700411540.dir/feature_tests.c.o   -c /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec2700411540
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2700411540.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec2700411540.dir/feature_tests.c.o  -o cmTryCompileExec2700411540 -rdynamic 
-make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1548204687/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1548204687.dir/build.make CMakeFiles/cmTryCompileExec1548204687.dir/build
+make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1548204687.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec1548204687.dir/feature_tests.c.o   -c /home/shinhra/cours/monde3d/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec1548204687
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1548204687.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1548204687.dir/feature_tests.c.o  -o cmTryCompileExec1548204687 -rdynamic 
+make[1]: Leaving directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -217,32 +217,32 @@ make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp
+Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1721745562/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1721745562.dir/build.make CMakeFiles/cmTryCompileExec1721745562.dir/build
-make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1721745562.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1721745562.dir/testCXXCompiler.cxx.o -c /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec1721745562
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1721745562.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec1721745562.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1721745562 -rdynamic 
-make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2532333165/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2532333165.dir/build.make CMakeFiles/cmTryCompileExec2532333165.dir/build
+make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2532333165.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2532333165.dir/testCXXCompiler.cxx.o -c /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2532333165
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2532333165.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec2532333165.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2532333165 -rdynamic 
+make[1]: Leaving directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp
+Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1920575952/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1920575952.dir/build.make CMakeFiles/cmTryCompileExec1920575952.dir/build
-make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1920575952.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1920575952.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec1920575952
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1920575952.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTryCompileExec1920575952.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1920575952 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3146163031/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3146163031.dir/build.make CMakeFiles/cmTryCompileExec3146163031.dir/build
+make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3146163031.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3146163031.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3146163031
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3146163031.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTryCompileExec3146163031.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3146163031 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -252,24 +252,24 @@ Thread model: posix
 gcc version 5.2.1 20151010 (Ubuntu 5.2.1-22ubuntu2) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1920575952' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqKpgIs.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1920575952 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTryCompileExec1920575952.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3146163031' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMWByhl.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3146163031 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTryCompileExec3146163031.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec1920575952/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1920575952.dir/build.make CMakeFiles/cmTryCompileExec1920575952.dir/build]
-  ignore line: [make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1920575952.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1920575952.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec1920575952]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1920575952.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTryCompileExec1920575952.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1920575952 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec3146163031/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3146163031.dir/build.make CMakeFiles/cmTryCompileExec3146163031.dir/build]
+  ignore line: [make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3146163031.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3146163031.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3146163031]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3146163031.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTryCompileExec3146163031.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3146163031 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.2.1 20151010 (Ubuntu 5.2.1-22ubuntu2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1920575952' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqKpgIs.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1920575952 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTryCompileExec1920575952.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3146163031' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMWByhl.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3146163031 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTryCompileExec3146163031.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccqKpgIs.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccMWByhl.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -303,7 +303,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec1920575952] ==> ignore
+    arg [cmTryCompileExec3146163031] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -315,7 +315,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTryCompileExec1920575952.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3146163031.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -345,18 +345,18 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp
+Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3522586496/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3522586496.dir/build.make CMakeFiles/cmTryCompileExec3522586496.dir/build
-make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3522586496.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTryCompileExec3522586496.dir/feature_tests.cxx.o -c /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec3522586496
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3522586496.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec3522586496.dir/feature_tests.cxx.o  -o cmTryCompileExec3522586496 -rdynamic 
-make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2723636265/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2723636265.dir/build.make CMakeFiles/cmTryCompileExec2723636265.dir/build
+make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2723636265.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTryCompileExec2723636265.dir/feature_tests.cxx.o -c /home/shinhra/cours/monde3d/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec2723636265
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2723636265.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec2723636265.dir/feature_tests.cxx.o  -o cmTryCompileExec2723636265 -rdynamic 
+make[1]: Leaving directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -419,18 +419,18 @@ make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp
+Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3933172657/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3933172657.dir/build.make CMakeFiles/cmTryCompileExec3933172657.dir/build
-make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3933172657.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTryCompileExec3933172657.dir/feature_tests.cxx.o -c /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec3933172657
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3933172657.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec3933172657.dir/feature_tests.cxx.o  -o cmTryCompileExec3933172657 -rdynamic 
-make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3073594712/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3073594712.dir/build.make CMakeFiles/cmTryCompileExec3073594712.dir/build
+make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3073594712.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTryCompileExec3073594712.dir/feature_tests.cxx.o -c /home/shinhra/cours/monde3d/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec3073594712
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3073594712.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec3073594712.dir/feature_tests.cxx.o  -o cmTryCompileExec3073594712 -rdynamic 
+make[1]: Leaving directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -493,18 +493,18 @@ make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp
+Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3922760405/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3922760405.dir/build.make CMakeFiles/cmTryCompileExec3922760405.dir/build
-make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3922760405.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTryCompileExec3922760405.dir/feature_tests.cxx.o -c /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec3922760405
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3922760405.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec3922760405.dir/feature_tests.cxx.o  -o cmTryCompileExec3922760405 -rdynamic 
-make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1534651810/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1534651810.dir/build.make CMakeFiles/cmTryCompileExec1534651810.dir/build
+make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1534651810.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTryCompileExec1534651810.dir/feature_tests.cxx.o -c /home/shinhra/cours/monde3d/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec1534651810
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1534651810.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec1534651810.dir/feature_tests.cxx.o  -o cmTryCompileExec1534651810 -rdynamic 
+make[1]: Leaving directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -565,154 +565,154 @@ make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Performing C++ SOURCE FILE Test HAS_CPP14_FLAG succeded with the following output:
-Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp
+Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2889295642/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2889295642.dir/build.make CMakeFiles/cmTryCompileExec2889295642.dir/build
-make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2889295642.dir/src.cxx.o
-/usr/bin/c++    -DHAS_CPP14_FLAG   -std=c++14 -o CMakeFiles/cmTryCompileExec2889295642.dir/src.cxx.o -c /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec2889295642
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2889295642.dir/link.txt --verbose=1
-/usr/bin/c++    -DHAS_CPP14_FLAG    CMakeFiles/cmTryCompileExec2889295642.dir/src.cxx.o  -o cmTryCompileExec2889295642 -rdynamic 
-make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2653650992/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2653650992.dir/build.make CMakeFiles/cmTryCompileExec2653650992.dir/build
+make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2653650992.dir/src.cxx.o
+/usr/bin/c++    -DHAS_CPP14_FLAG   -std=c++14 -o CMakeFiles/cmTryCompileExec2653650992.dir/src.cxx.o -c /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2653650992
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2653650992.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAS_CPP14_FLAG    CMakeFiles/cmTryCompileExec2653650992.dir/src.cxx.o  -o cmTryCompileExec2653650992 -rdynamic 
+make[1]: Leaving directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAS_CPP11_FLAG succeded with the following output:
-Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp
+Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1964501404/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1964501404.dir/build.make CMakeFiles/cmTryCompileExec1964501404.dir/build
-make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1964501404.dir/src.cxx.o
-/usr/bin/c++    -DHAS_CPP11_FLAG   -std=c++11 -o CMakeFiles/cmTryCompileExec1964501404.dir/src.cxx.o -c /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec1964501404
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1964501404.dir/link.txt --verbose=1
-/usr/bin/c++    -DHAS_CPP11_FLAG    CMakeFiles/cmTryCompileExec1964501404.dir/src.cxx.o  -o cmTryCompileExec1964501404 -rdynamic 
-make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1053590712/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1053590712.dir/build.make CMakeFiles/cmTryCompileExec1053590712.dir/build
+make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1053590712.dir/src.cxx.o
+/usr/bin/c++    -DHAS_CPP11_FLAG   -std=c++11 -o CMakeFiles/cmTryCompileExec1053590712.dir/src.cxx.o -c /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1053590712
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1053590712.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAS_CPP11_FLAG    CMakeFiles/cmTryCompileExec1053590712.dir/src.cxx.o  -o cmTryCompileExec1053590712 -rdynamic 
+make[1]: Leaving directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Determining if files pthread.h exist passed with the following output:
-Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp
+Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2147715522/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2147715522.dir/build.make CMakeFiles/cmTryCompileExec2147715522.dir/build
-make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2147715522.dir/CheckIncludeFiles.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2147715522.dir/CheckIncludeFiles.c.o   -c /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTryCompileExec2147715522
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2147715522.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec2147715522.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2147715522 -rdynamic 
-make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2238300858/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2238300858.dir/build.make CMakeFiles/cmTryCompileExec2238300858.dir/build
+make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2238300858.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2238300858.dir/CheckIncludeFiles.c.o   -c /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2238300858
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2238300858.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2238300858.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2238300858 -rdynamic 
+make[1]: Leaving directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp
+Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2907972720/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2907972720.dir/build.make CMakeFiles/cmTryCompileExec2907972720.dir/build
-make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2907972720.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2907972720.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2907972720
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2907972720.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2907972720.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2907972720 -rdynamic -lpthread 
-make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4229220287/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4229220287.dir/build.make CMakeFiles/cmTryCompileExec4229220287.dir/build
+make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4229220287.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec4229220287.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4229220287
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4229220287.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec4229220287.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4229220287 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
-Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp
+Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2123952537/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2123952537.dir/build.make CMakeFiles/cmTryCompileExec2123952537.dir/build
-make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2123952537.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec2123952537.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2123952537
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2123952537.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec2123952537.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2123952537 -rdynamic -lX11 -lXext 
-make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1459338249/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1459338249.dir/build.make CMakeFiles/cmTryCompileExec1459338249.dir/build
+make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1459338249.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec1459338249.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1459338249
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1459338249.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec1459338249.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1459338249 -rdynamic -lX11 -lXext 
+make[1]: Leaving directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp
+Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3880534575/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3880534575.dir/build.make CMakeFiles/cmTryCompileExec3880534575.dir/build
-make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3880534575.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec3880534575.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec3880534575
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3880534575.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec3880534575.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3880534575 -rdynamic 
-make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1640829653/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1640829653.dir/build.make CMakeFiles/cmTryCompileExec1640829653.dir/build
+make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1640829653.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec1640829653.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1640829653
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1640829653.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec1640829653.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1640829653 -rdynamic 
+make[1]: Leaving directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function connect exists passed with the following output:
-Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp
+Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3282379917/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3282379917.dir/build.make CMakeFiles/cmTryCompileExec3282379917.dir/build
-make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3282379917.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec3282379917.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec3282379917
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3282379917.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec3282379917.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3282379917 -rdynamic 
-make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1949532308/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1949532308.dir/build.make CMakeFiles/cmTryCompileExec1949532308.dir/build
+make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1949532308.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec1949532308.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1949532308
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1949532308.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec1949532308.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1949532308 -rdynamic 
+make[1]: Leaving directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function remove exists passed with the following output:
-Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp
+Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec551895037/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec551895037.dir/build.make CMakeFiles/cmTryCompileExec551895037.dir/build
-make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec551895037.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec551895037.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec551895037
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec551895037.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec551895037.dir/CheckFunctionExists.c.o  -o cmTryCompileExec551895037 -rdynamic 
-make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3952413075/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3952413075.dir/build.make CMakeFiles/cmTryCompileExec3952413075.dir/build
+make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3952413075.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec3952413075.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3952413075
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3952413075.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec3952413075.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3952413075 -rdynamic 
+make[1]: Leaving directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function shmat exists passed with the following output:
-Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp
+Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1091052423/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1091052423.dir/build.make CMakeFiles/cmTryCompileExec1091052423.dir/build
-make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1091052423.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec1091052423.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec1091052423
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1091052423.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec1091052423.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1091052423 -rdynamic 
-make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1672829547/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1672829547.dir/build.make CMakeFiles/cmTryCompileExec1672829547.dir/build
+make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1672829547.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec1672829547.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1672829547
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1672829547.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec1672829547.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1672829547 -rdynamic 
+make[1]: Leaving directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
-Change Dir: /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp
+Change Dir: /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3770630358/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3770630358.dir/build.make CMakeFiles/cmTryCompileExec3770630358.dir/build
-make[1]: Entering directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3770630358.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec3770630358.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec3770630358
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3770630358.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec3770630358.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3770630358 -rdynamic -lICE 
-make[1]: Leaving directory '/home/shinhra/cours/monde3d/monde3d/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1508303681/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1508303681.dir/build.make CMakeFiles/cmTryCompileExec1508303681.dir/build
+make[1]: Entering directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1508303681.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec1508303681.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1508303681
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1508303681.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec1508303681.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1508303681 -rdynamic -lICE 
+make[1]: Leaving directory '/home/shinhra/cours/monde3d/build/CMakeFiles/CMakeTmp'
 
 

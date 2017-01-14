@@ -1,4 +1,4 @@
-# Install script for directory: /home/shinhra/cours/monde3d/monde3d/m3d_td1/ext/nanogui/ext/glfw/src
+# Install script for directory: /home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/ext/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

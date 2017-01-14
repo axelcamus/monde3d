@@ -1,4 +1,4 @@
-# Install script for directory: /home/shinhra/cours/monde3d/monde3d/m3d_td1/ext/nanogui
+# Install script for directory: /home/shinhra/cours/monde3d/m3d_td1/ext/nanogui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,16 +33,16 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/shinhra/cours/monde3d/monde3d/build/ext_build/nanogui/libnanogui.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/shinhra/cours/monde3d/build/ext_build/nanogui/libnanogui.a")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/shinhra/cours/monde3d/monde3d/m3d_td1/ext/nanogui/include/nanogui" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/include/nanogui" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/shinhra/cours/monde3d/monde3d/build/ext_build/nanogui/ext_build/glfw/cmake_install.cmake")
+  include("/home/shinhra/cours/monde3d/build/ext_build/nanogui/ext_build/glfw/cmake_install.cmake")
 
 endif()
 
