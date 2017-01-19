@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shinhra/cours/monde3d/m3d_td1/ext/tinyobjloader/tiny_obj_loader.cc
+tiny_obj_loader.h
+/home/shinhra/cours/monde3d/m3d_td1/ext/tinyobjloader/tiny_obj_loader.h
+
+/home/shinhra/cours/monde3d/m3d_td1/ext/tinyobjloader/tiny_obj_loader.h
+string
+-
+vector
+-
+map
+-
+cmath
+-
+cstdlib
+-
+cstring
+-
+cassert
+-
+cmath
+-
+cstddef
+-
+cctype
+-
+fstream
+-
+sstream
+-
+tiny_obj_loader.h
+/home/shinhra/cours/monde3d/m3d_td1/ext/tinyobjloader/tiny_obj_loader.h
+

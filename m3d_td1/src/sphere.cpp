@@ -18,11 +18,28 @@ Sphere::~Sphere()
 
 bool Sphere::intersect(const Ray& ray, Hit& hit) const
 {
-    /// TODO: compute ray-sphere intersection
+	float a = ray.direction.squaredNorm();
+	float b = 2* (ray.origin - m_center).norm() * ray.direction.norm();
+	float c = (ray.origin - m_center).squaredNorm()  + (m_radius*m_radius);
+	
+	float delta = (b*b) - (4*a*c);
+	if(delta < 0)
+		return false;
+	else
+		printf("%f\n", delta);
 
-    throw RTException("Sphere::intersect not implemented yet.");
-
-    return false;
+	if(delta == 0)
+		hit.setT(-b/(2*a));
+	else{
+		float t1 = (-b - sqrt(delta))/(2*a);
+		float t2 = (-b + sqrt(delta)/(2*a));
+		if(t1 > t2)
+			hit.setT(t2);
+		else
+			hit.setT(t1);
+	}
+	hit.setShape(this);
+	return true;
 }
 
 REGISTER_CLASS(Sphere, "sphere")
