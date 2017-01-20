@@ -10,8 +10,11 @@ public:
     Color3f Li(const Scene *scene, const Ray &ray) const {
         Hit hit;
         scene->intersect(ray, hit);
+        float dir = 0.f;
         if(hit.shape() != NULL){
-            return Color3f(fabs(hit.normal().x()), fabs(hit.normal().y()), fabs(hit.normal().z()));
+            for(int i=0; i < scene->lightList.size(); i++){
+                
+            }
         }
         return scene->backgroundColor();
     }
