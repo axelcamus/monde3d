@@ -489,6 +489,54 @@ CMakeFiles/m3d_raytracer.dir/src/flat.cpp.o.provides: CMakeFiles/m3d_raytracer.d
 CMakeFiles/m3d_raytracer.dir/src/flat.cpp.o.provides.build: CMakeFiles/m3d_raytracer.dir/src/flat.cpp.o
 
 
+CMakeFiles/m3d_raytracer.dir/src/normals.cpp.o: CMakeFiles/m3d_raytracer.dir/flags.make
+CMakeFiles/m3d_raytracer.dir/src/normals.cpp.o: /net/cremi/axecamus/m1/monde3d/m3d_td1/src/normals.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/net/cremi/axecamus/m1/monde3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/m3d_raytracer.dir/src/normals.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/m3d_raytracer.dir/src/normals.cpp.o -c /net/cremi/axecamus/m1/monde3d/m3d_td1/src/normals.cpp
+
+CMakeFiles/m3d_raytracer.dir/src/normals.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/m3d_raytracer.dir/src/normals.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /net/cremi/axecamus/m1/monde3d/m3d_td1/src/normals.cpp > CMakeFiles/m3d_raytracer.dir/src/normals.cpp.i
+
+CMakeFiles/m3d_raytracer.dir/src/normals.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/m3d_raytracer.dir/src/normals.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /net/cremi/axecamus/m1/monde3d/m3d_td1/src/normals.cpp -o CMakeFiles/m3d_raytracer.dir/src/normals.cpp.s
+
+CMakeFiles/m3d_raytracer.dir/src/normals.cpp.o.requires:
+
+.PHONY : CMakeFiles/m3d_raytracer.dir/src/normals.cpp.o.requires
+
+CMakeFiles/m3d_raytracer.dir/src/normals.cpp.o.provides: CMakeFiles/m3d_raytracer.dir/src/normals.cpp.o.requires
+	$(MAKE) -f CMakeFiles/m3d_raytracer.dir/build.make CMakeFiles/m3d_raytracer.dir/src/normals.cpp.o.provides.build
+.PHONY : CMakeFiles/m3d_raytracer.dir/src/normals.cpp.o.provides
+
+CMakeFiles/m3d_raytracer.dir/src/normals.cpp.o.provides.build: CMakeFiles/m3d_raytracer.dir/src/normals.cpp.o
+
+
+CMakeFiles/m3d_raytracer.dir/src/direct.cpp.o: CMakeFiles/m3d_raytracer.dir/flags.make
+CMakeFiles/m3d_raytracer.dir/src/direct.cpp.o: /net/cremi/axecamus/m1/monde3d/m3d_td1/src/direct.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/net/cremi/axecamus/m1/monde3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/m3d_raytracer.dir/src/direct.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/m3d_raytracer.dir/src/direct.cpp.o -c /net/cremi/axecamus/m1/monde3d/m3d_td1/src/direct.cpp
+
+CMakeFiles/m3d_raytracer.dir/src/direct.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/m3d_raytracer.dir/src/direct.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /net/cremi/axecamus/m1/monde3d/m3d_td1/src/direct.cpp > CMakeFiles/m3d_raytracer.dir/src/direct.cpp.i
+
+CMakeFiles/m3d_raytracer.dir/src/direct.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/m3d_raytracer.dir/src/direct.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /net/cremi/axecamus/m1/monde3d/m3d_td1/src/direct.cpp -o CMakeFiles/m3d_raytracer.dir/src/direct.cpp.s
+
+CMakeFiles/m3d_raytracer.dir/src/direct.cpp.o.requires:
+
+.PHONY : CMakeFiles/m3d_raytracer.dir/src/direct.cpp.o.requires
+
+CMakeFiles/m3d_raytracer.dir/src/direct.cpp.o.provides: CMakeFiles/m3d_raytracer.dir/src/direct.cpp.o.requires
+	$(MAKE) -f CMakeFiles/m3d_raytracer.dir/build.make CMakeFiles/m3d_raytracer.dir/src/direct.cpp.o.provides.build
+.PHONY : CMakeFiles/m3d_raytracer.dir/src/direct.cpp.o.provides
+
+CMakeFiles/m3d_raytracer.dir/src/direct.cpp.o.provides.build: CMakeFiles/m3d_raytracer.dir/src/direct.cpp.o
+
+
 # Object files for target m3d_raytracer
 m3d_raytracer_OBJECTS = \
 "CMakeFiles/m3d_raytracer.dir/src/common.cpp.o" \
@@ -508,7 +556,9 @@ m3d_raytracer_OBJECTS = \
 "CMakeFiles/m3d_raytracer.dir/src/phong.cpp.o" \
 "CMakeFiles/m3d_raytracer.dir/src/parser.cpp.o" \
 "CMakeFiles/m3d_raytracer.dir/src/proplist.cpp.o" \
-"CMakeFiles/m3d_raytracer.dir/src/flat.cpp.o"
+"CMakeFiles/m3d_raytracer.dir/src/flat.cpp.o" \
+"CMakeFiles/m3d_raytracer.dir/src/normals.cpp.o" \
+"CMakeFiles/m3d_raytracer.dir/src/direct.cpp.o"
 
 # External object files for target m3d_raytracer
 m3d_raytracer_EXTERNAL_OBJECTS =
@@ -531,6 +581,8 @@ m3d_raytracer: CMakeFiles/m3d_raytracer.dir/src/phong.cpp.o
 m3d_raytracer: CMakeFiles/m3d_raytracer.dir/src/parser.cpp.o
 m3d_raytracer: CMakeFiles/m3d_raytracer.dir/src/proplist.cpp.o
 m3d_raytracer: CMakeFiles/m3d_raytracer.dir/src/flat.cpp.o
+m3d_raytracer: CMakeFiles/m3d_raytracer.dir/src/normals.cpp.o
+m3d_raytracer: CMakeFiles/m3d_raytracer.dir/src/direct.cpp.o
 m3d_raytracer: CMakeFiles/m3d_raytracer.dir/build.make
 m3d_raytracer: ext_build/libpugixml.a
 m3d_raytracer: ext_build/lodepng/liblodepng.a
@@ -538,7 +590,7 @@ m3d_raytracer: ext_build/lib3ds/src/liblib3ds.a
 m3d_raytracer: ext_build/tinyobjloader/libtinyobjloader.a
 m3d_raytracer: ext_build/nanogui/libnanogui.a
 m3d_raytracer: CMakeFiles/m3d_raytracer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/net/cremi/axecamus/m1/monde3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable m3d_raytracer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/net/cremi/axecamus/m1/monde3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable m3d_raytracer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/m3d_raytracer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -564,6 +616,8 @@ CMakeFiles/m3d_raytracer.dir/requires: CMakeFiles/m3d_raytracer.dir/src/phong.cp
 CMakeFiles/m3d_raytracer.dir/requires: CMakeFiles/m3d_raytracer.dir/src/parser.cpp.o.requires
 CMakeFiles/m3d_raytracer.dir/requires: CMakeFiles/m3d_raytracer.dir/src/proplist.cpp.o.requires
 CMakeFiles/m3d_raytracer.dir/requires: CMakeFiles/m3d_raytracer.dir/src/flat.cpp.o.requires
+CMakeFiles/m3d_raytracer.dir/requires: CMakeFiles/m3d_raytracer.dir/src/normals.cpp.o.requires
+CMakeFiles/m3d_raytracer.dir/requires: CMakeFiles/m3d_raytracer.dir/src/direct.cpp.o.requires
 
 .PHONY : CMakeFiles/m3d_raytracer.dir/requires
 

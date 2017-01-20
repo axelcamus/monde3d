@@ -1428,6 +1428,12 @@ windows.h
 sys/sysctl.h
 -
 
+/net/cremi/axecamus/m1/monde3d/m3d_td1/src/direct.cpp
+integrator.h
+/net/cremi/axecamus/m1/monde3d/m3d_td1/src/integrator.h
+scene.h
+/net/cremi/axecamus/m1/monde3d/m3d_td1/src/scene.h
+
 /net/cremi/axecamus/m1/monde3d/m3d_td1/src/directionalLight.cpp
 light.h
 /net/cremi/axecamus/m1/monde3d/m3d_td1/src/light.h
@@ -1453,6 +1459,12 @@ iostream
 -
 math.h
 -
+
+/net/cremi/axecamus/m1/monde3d/m3d_td1/src/normals.cpp
+integrator.h
+/net/cremi/axecamus/m1/monde3d/m3d_td1/src/integrator.h
+scene.h
+/net/cremi/axecamus/m1/monde3d/m3d_td1/src/scene.h
 
 /net/cremi/axecamus/m1/monde3d/m3d_td1/src/object.cpp
 object.h

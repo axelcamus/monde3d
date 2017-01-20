@@ -26,15 +26,22 @@ bool Sphere::intersect(const Ray& ray, Hit& hit) const
 	if(delta < 0)
 		return false;
 
-	if(delta == 0)
-		hit.setT(-b/(2*a));
+	if(delta == 0){
+		float t = -b/(2*a);
+		hit.setT(t);
+		hit.setNormal((ray.at(t)-m_center)/m_radius);
+	}
 	else{
 		float t1 = (-b - sqrt(delta))/(2*a);
 		float t2 = (-b + sqrt(delta)/(2*a));
-		if(t1 > t2)
+		if(t1 > t2){
 			hit.setT(t2);
-		else
+			hit.setNormal((ray.at(t2)-m_center)/m_radius);
+		}
+		else{
 			hit.setT(t1);
+			hit.setNormal((ray.at(t1)-m_center)/m_radius);
+		}
 	}
 	hit.setShape(this);
 	return true;

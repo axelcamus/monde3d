@@ -27,10 +27,8 @@ void Scene::intersect(const Ray& ray, Hit& hit) const
     Hit h;
     for(unsigned int i=0; i < m_shapeList.size(); i++){
         if(m_shapeList[i]->intersect(ray, h)){
-            if(h.t() < hit.t()){
-                hit.setT(h.t());
-                hit.setShape(h.shape());
-            }
+            if(h.t() < hit.t())
+                hit = h;
         }
     }
 }

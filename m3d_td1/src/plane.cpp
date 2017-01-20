@@ -21,6 +21,7 @@ bool Plane::intersect(const Ray& ray, Hit& hit) const
     if(t > 0){
     	hit.setT(t);
     	hit.setShape(this);
+    	hit.setNormal(m_normal);
     	return true;
     }
 

@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/m3d_raytracer.dir/src/parser.cpp.o"
   "CMakeFiles/m3d_raytracer.dir/src/proplist.cpp.o"
   "CMakeFiles/m3d_raytracer.dir/src/flat.cpp.o"
+  "CMakeFiles/m3d_raytracer.dir/src/normals.cpp.o"
+  "CMakeFiles/m3d_raytracer.dir/src/direct.cpp.o"
   "m3d_raytracer.pdb"
   "m3d_raytracer"
 )

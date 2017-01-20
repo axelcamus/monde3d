@@ -379,6 +379,33 @@ src/common.cpp.s:
 	$(MAKE) -f CMakeFiles/m3d_raytracer.dir/build.make CMakeFiles/m3d_raytracer.dir/src/common.cpp.s
 .PHONY : src/common.cpp.s
 
+src/direct.o: src/direct.cpp.o
+
+.PHONY : src/direct.o
+
+# target to build an object file
+src/direct.cpp.o:
+	$(MAKE) -f CMakeFiles/m3d_raytracer.dir/build.make CMakeFiles/m3d_raytracer.dir/src/direct.cpp.o
+.PHONY : src/direct.cpp.o
+
+src/direct.i: src/direct.cpp.i
+
+.PHONY : src/direct.i
+
+# target to preprocess a source file
+src/direct.cpp.i:
+	$(MAKE) -f CMakeFiles/m3d_raytracer.dir/build.make CMakeFiles/m3d_raytracer.dir/src/direct.cpp.i
+.PHONY : src/direct.cpp.i
+
+src/direct.s: src/direct.cpp.s
+
+.PHONY : src/direct.s
+
+# target to generate assembly for a file
+src/direct.cpp.s:
+	$(MAKE) -f CMakeFiles/m3d_raytracer.dir/build.make CMakeFiles/m3d_raytracer.dir/src/direct.cpp.s
+.PHONY : src/direct.cpp.s
+
 src/directionalLight.o: src/directionalLight.cpp.o
 
 .PHONY : src/directionalLight.o
@@ -486,6 +513,33 @@ src/material.s: src/material.cpp.s
 src/material.cpp.s:
 	$(MAKE) -f CMakeFiles/m3d_raytracer.dir/build.make CMakeFiles/m3d_raytracer.dir/src/material.cpp.s
 .PHONY : src/material.cpp.s
+
+src/normals.o: src/normals.cpp.o
+
+.PHONY : src/normals.o
+
+# target to build an object file
+src/normals.cpp.o:
+	$(MAKE) -f CMakeFiles/m3d_raytracer.dir/build.make CMakeFiles/m3d_raytracer.dir/src/normals.cpp.o
+.PHONY : src/normals.cpp.o
+
+src/normals.i: src/normals.cpp.i
+
+.PHONY : src/normals.i
+
+# target to preprocess a source file
+src/normals.cpp.i:
+	$(MAKE) -f CMakeFiles/m3d_raytracer.dir/build.make CMakeFiles/m3d_raytracer.dir/src/normals.cpp.i
+.PHONY : src/normals.cpp.i
+
+src/normals.s: src/normals.cpp.s
+
+.PHONY : src/normals.s
+
+# target to generate assembly for a file
+src/normals.cpp.s:
+	$(MAKE) -f CMakeFiles/m3d_raytracer.dir/build.make CMakeFiles/m3d_raytracer.dir/src/normals.cpp.s
+.PHONY : src/normals.cpp.s
 
 src/object.o: src/object.cpp.o
 
@@ -790,6 +844,9 @@ help:
 	@echo "... src/common.o"
 	@echo "... src/common.i"
 	@echo "... src/common.s"
+	@echo "... src/direct.o"
+	@echo "... src/direct.i"
+	@echo "... src/direct.s"
 	@echo "... src/directionalLight.o"
 	@echo "... src/directionalLight.i"
 	@echo "... src/directionalLight.s"
@@ -802,6 +859,9 @@ help:
 	@echo "... src/material.o"
 	@echo "... src/material.i"
 	@echo "... src/material.s"
+	@echo "... src/normals.o"
+	@echo "... src/normals.i"
+	@echo "... src/normals.s"
 	@echo "... src/object.o"
 	@echo "... src/object.i"
 	@echo "... src/object.s"
