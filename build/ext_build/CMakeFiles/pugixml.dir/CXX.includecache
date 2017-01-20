@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/shinhra/cours/monde3d/m3d_td1/ext/pugixml/src/pugiconfig.hpp
+/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/pugixml/src/pugiconfig.hpp
 
-/home/shinhra/cours/monde3d/m3d_td1/ext/pugixml/src/pugixml.cpp
+/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/pugixml/src/pugixml.cpp
 pugixml.hpp
-/home/shinhra/cours/monde3d/m3d_td1/ext/pugixml/src/pugixml.hpp
+/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/pugixml/src/pugixml.hpp
 stdlib.h
 -
 stdio.h
@@ -40,9 +40,9 @@ new
 stdint.h
 -
 
-/home/shinhra/cours/monde3d/m3d_td1/ext/pugixml/src/pugixml.hpp
+/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/pugixml/src/pugixml.hpp
 pugiconfig.hpp
-/home/shinhra/cours/monde3d/m3d_td1/ext/pugixml/src/pugiconfig.hpp
+/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/pugixml/src/pugiconfig.hpp
 stddef.h
 -
 exception

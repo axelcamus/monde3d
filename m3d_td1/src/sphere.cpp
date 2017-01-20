@@ -19,14 +19,12 @@ Sphere::~Sphere()
 bool Sphere::intersect(const Ray& ray, Hit& hit) const
 {
 	float a = ray.direction.squaredNorm();
-	float b = 2* (ray.origin - m_center).norm() * ray.direction.norm();
-	float c = (ray.origin - m_center).squaredNorm()  + (m_radius*m_radius);
+	float b = 2* ray.direction.dot(ray.origin - m_center);
+	float c = (ray.origin - m_center).squaredNorm() - (m_radius*m_radius);
 	
-	float delta = (b*b) - (4*a*c);
+	float delta = b*b - 4*a*c;
 	if(delta < 0)
 		return false;
-	else
-		printf("%f\n", delta);
 
 	if(delta == 0)
 		hit.setT(-b/(2*a));

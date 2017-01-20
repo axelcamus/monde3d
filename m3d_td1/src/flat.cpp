@@ -12,7 +12,7 @@ public:
         scene->intersect(ray, hit);
         if(hit.shape() != NULL)
             return hit.shape()->material()->ambientColor();
-        return Color3f(0.f);
+        return scene->backgroundColor();
     }
 
     std::string toString() const {

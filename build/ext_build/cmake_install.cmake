@@ -1,4 +1,4 @@
-# Install script for directory: /home/shinhra/cours/monde3d/m3d_td1/ext
+# Install script for directory: /net/cremi/axecamus/m1/monde3d/m3d_td1/ext
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/shinhra/cours/monde3d/build/ext_build/nanogui/cmake_install.cmake")
-  include("/home/shinhra/cours/monde3d/build/ext_build/lib3ds/cmake_install.cmake")
-  include("/home/shinhra/cours/monde3d/build/ext_build/tinyobjloader/cmake_install.cmake")
-  include("/home/shinhra/cours/monde3d/build/ext_build/lodepng/cmake_install.cmake")
+  include("/net/cremi/axecamus/m1/monde3d/build/ext_build/nanogui/cmake_install.cmake")
+  include("/net/cremi/axecamus/m1/monde3d/build/ext_build/lib3ds/cmake_install.cmake")
+  include("/net/cremi/axecamus/m1/monde3d/build/ext_build/tinyobjloader/cmake_install.cmake")
+  include("/net/cremi/axecamus/m1/monde3d/build/ext_build/lodepng/cmake_install.cmake")
 
 endif()
 

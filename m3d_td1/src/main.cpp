@@ -14,8 +14,8 @@ void render(Scene* scene, ImageBlock* result, std::string outputName, bool* done
     integrator->preprocess(scene);
 
     float tanfovy2 = tan(camera->fovY()*0.5);
-    Vector3f camX = camera->right() * 0.5 * camera->vpWidth();
-    Vector3f camY = camera->up() * 0.5 * camera->vpHeight();
+    Vector3f camX = camera->right() * tanfovy2 * camera->nearDist() * float(camera->vpWidth())/float(camera->vpHeight());
+    Vector3f camY = -camera->up() * tanfovy2 * camera->nearDist();
     Vector3f camF = camera->direction() * camera->nearDist();
 
     Color3f c;

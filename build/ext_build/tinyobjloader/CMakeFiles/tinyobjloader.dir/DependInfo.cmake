@@ -4,17 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shinhra/cours/monde3d/m3d_td1/ext/tinyobjloader/tiny_obj_loader.cc" "/home/shinhra/cours/monde3d/build/ext_build/tinyobjloader/CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.o"
+  "/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/tinyobjloader/tiny_obj_loader.cc" "/net/cremi/axecamus/m1/monde3d/build/ext_build/tinyobjloader/CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
-  )
-set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-set(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-set(CMAKE_ASM_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

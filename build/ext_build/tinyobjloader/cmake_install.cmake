@@ -1,4 +1,4 @@
-# Install script for directory: /home/shinhra/cours/monde3d/m3d_td1/ext/tinyobjloader
+# Install script for directory: /net/cremi/axecamus/m1/monde3d/m3d_td1/ext/tinyobjloader
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,11 +32,11 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/shinhra/cours/monde3d/build/ext_build/tinyobjloader/libtinyobjloader.a")
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/net/cremi/axecamus/m1/monde3d/build/ext_build/tinyobjloader/libtinyobjloader.a")
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/home/shinhra/cours/monde3d/m3d_td1/ext/tinyobjloader/tiny_obj_loader.h")
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/tinyobjloader/tiny_obj_loader.h")
 endif()
 

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/shinhra/cours/monde3d/m3d_td1/ext/tinyobjloader/tiny_obj_loader.cc
+/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/tinyobjloader/tiny_obj_loader.cc
 tiny_obj_loader.h
-/home/shinhra/cours/monde3d/m3d_td1/ext/tinyobjloader/tiny_obj_loader.h
+/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/tinyobjloader/tiny_obj_loader.h
 
-/home/shinhra/cours/monde3d/m3d_td1/ext/tinyobjloader/tiny_obj_loader.h
+/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/tinyobjloader/tiny_obj_loader.h
 string
 -
 vector
@@ -36,5 +36,5 @@ fstream
 sstream
 -
 tiny_obj_loader.h
-/home/shinhra/cours/monde3d/m3d_td1/ext/tinyobjloader/tiny_obj_loader.h
+/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/tinyobjloader/tiny_obj_loader.h
 

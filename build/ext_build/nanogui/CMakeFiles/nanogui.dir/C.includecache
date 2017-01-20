@@ -6,29 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/fontstash.h
+/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/fontstash.h
 ft2build.h
 -
 math.h
 -
 stb_truetype.h
-/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/stb_truetype.h
+/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/stb_truetype.h
 
-/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/nanovg.c
+/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/nanovg.c
 stdio.h
 -
 math.h
 -
 nanovg.h
-/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/nanovg.h
+/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/nanovg.h
 fontstash.h
-/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/fontstash.h
+/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/fontstash.h
 stb_image.h
-/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/stb_image.h
+/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/stb_image.h
 
-/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/nanovg.h
+/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/nanovg.h
 
-/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/stb_image.h
+/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/stb_image.h
 stdio.h
 -
 math.h
@@ -50,13 +50,13 @@ stddef.h
 stdint.h
 -
 
-/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/stb_truetype.h
+/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/stb_truetype.h
 stb_truetype.h
-/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/stb_truetype.h
+/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/stb_truetype.h
 stdio.h
 -
 stb_truetype.h
-/home/shinhra/cours/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/stb_truetype.h
+/net/cremi/axecamus/m1/monde3d/m3d_td1/ext/nanogui/ext/nanovg/src/stb_truetype.h
 stdlib.h
 -
 math.h
