@@ -20,28 +20,38 @@ bool Sphere::intersect(const Ray& ray, Hit& hit) const
 {
 	float a = ray.direction.squaredNorm();
 	float b = 2* ray.direction.dot(ray.origin - m_center);
-	float c = (ray.origin - m_center).squaredNorm() - (m_radius*m_radius);
+	float c = (ray.origin - m_center).dot(ray.origin - m_center) - (m_radius*m_radius);
 	
 	float delta = b*b - 4*a*c;
 	if(delta < 0)
 		return false;
 
+	Point3f x;
 	if(delta == 0){
 		float t = -b/(2*a);
-		hit.setT(t);
-		hit.setNormal((ray.at(t)-m_center)/m_radius);
+		if(t > 0){
+			hit.setT(t);
+			x = ray.at(t);
+			hit.setNormal((x-m_center)/m_radius);
+		}
+		else
+			return false;
 	}
-	else{
-		float t1 = (-b - sqrt(delta))/(2*a);
-		float t2 = (-b + sqrt(delta)/(2*a));
-		if(t1 > t2){
+	if(delta > 0){
+		float t1 = (-b - sqrt(delta))/2*a;
+		float t2 = (-b + sqrt(delta))/2*a;
+		if(t1 > t2 && t2 > 0){
 			hit.setT(t2);
-			hit.setNormal((ray.at(t2)-m_center)/m_radius);
+			x = ray.at(t2);
+			hit.setNormal((x-m_center)/m_radius);
 		}
-		else{
+		else if(t1 > 0){
 			hit.setT(t1);
-			hit.setNormal((ray.at(t1)-m_center)/m_radius);
+			x = ray.at(t1);
+			hit.setNormal((x-m_center)/m_radius);
 		}
+		else
+			return false;
 	}
 	hit.setShape(this);
 	return true;

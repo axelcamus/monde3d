@@ -18,11 +18,12 @@ Phong::Phong(const PropertyList &propList)
 
 Color3f Phong::brdf(const Vector3f& viewDir, const Vector3f& lightDir, const Normal3f& normal, const Vector2f& uv) const
 {   
-    float rv = (-lightDir).dot(viewDir);
+    Vector3f r = 2 * (normal.dot(lightDir)) * normal - lightDir;
+    float rv = r.dot(viewDir);
 
-    Color3f s = m_specularColor * ( pow(std::max(rv, 0.f), m_exponent));
+    Color3f s = m_specularColor * pow(std::max(rv, 0.f), m_exponent);
 
-    return m_diffuseColor + s;
+    return  m_diffuseColor + s;
 }
 
 std::string Phong::toString() const {
