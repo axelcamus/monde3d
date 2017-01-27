@@ -17,20 +17,21 @@ public:
             Color3f brdf = Color3f(0.f);
 
             Point3f x = ray.at(hit.t());
-            Point3f rayLightPoint;
 
             float dir_dot_n = 0.f;
+            float dist = 0.f;
             Ray rayLight;
             Hit hitLight;
             
             for(int i = 0; i < scene->lightList().size(); i++){
-                rayLight = Ray(x + 0.00001 * hit.normal(), scene->lightList()[i]->direction(x));
+                rayLight = Ray(x + 0.001 * hit.normal(), scene->lightList()[i]->direction(x));
                 hitLight = Hit();
 
                 scene->intersect(rayLight, hitLight);
-                
+                scene->lightList()[i]->direction(x, &dist);
+
                 if(hitLight.foundIntersection()){
-                    if(round(scene->lightList()[i]->direction(x).dot(scene->lightList()[i]->direction(rayLight.at(hitLight.t())))) == -1){
+                    if(hitLight.t() > dist){
                         dir_dot_n = scene->lightList()[i]->direction(x).dot(hit.normal());
                         brdf = hit.shape()->material()->brdf(-ray.direction, scene->lightList()[i]->direction(x), hit.normal(), NULL);
                         c += brdf * std::max(dir_dot_n, 0.f) * scene->lightList()[i]->intensity(x);

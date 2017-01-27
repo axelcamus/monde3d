@@ -1,0 +1,7 @@
+Mes principales difficultés ont été de retrouver toutes les formules nécessaires aux calculs dans les fonctions en particulier pour la fonction intersect de Sphere.
+
+J'étais parvenu à un bon résultat pour les 2 premiers exercices mais au moment de placer les ombres je me suis retrouvé bloqué un long moment avant de voir que le problème venait de la fonction intersect alors qu'elle ne posait aucun problème avant cela.
+
+D'une manière générale étant encore très peu habitué à utiliser toutes les notions autour des vecteurs j'ai perdu énormément de temps à trouver et à comprendre les opérations à effectuer.
+
+Vous trouverez les images pour chaques exercices dans le dossier img_result.

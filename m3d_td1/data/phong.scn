@@ -4,7 +4,9 @@
   <color name="background" value="0.0, 0.0, 0.0"/>
 
  <!-- Use the direct illumination integrator -->
- <integrator type="direct"/>
+ <integrator type="whitted">
+  <integer name="maxRecursion" value="4"/>
+ </integrator>
 
  <!-- Use Whitted integrator -->
  <!--  <integrator type="whitted">

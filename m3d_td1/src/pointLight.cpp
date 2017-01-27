@@ -12,6 +12,9 @@ public:
     Vector3f direction(const Point3f& x, float* dist = 0) const
     {
         Vector3f v =  m_position - x;
+        if(dist){
+            *dist = v.norm();
+        }    
         v.normalize();
        return v;
     }
